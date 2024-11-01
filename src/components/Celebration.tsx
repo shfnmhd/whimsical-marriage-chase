@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import confetti from 'canvas-confetti';
+import { motion } from 'framer-motion';
 
 const Celebration = () => {
   const [showMessage, setShowMessage] = useState(false);
